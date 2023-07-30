@@ -1,0 +1,61 @@
+{
+    "pizza": [
+        {
+            "id": 1,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-011-img-01-1.png",
+            "name": "Margherita",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 40.99
+        },
+        {
+            "id": 2,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-010-img-01.png",
+            "name": "Vagie Pizza",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 34.99
+        },
+        {
+            "id": 3,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-012-img-01.png",
+            "name": "Pepperone",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 42.99
+        },
+      
+        {
+            "id": 4,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-012-img-01.png",
+            "name": "Mexicano",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 42.99
+        },
+        {
+            "id": 5,
+            "img": "https://тандыр1.рф/upload/shop_1/6/6/0/item_660/item_660.png",
+            "name": "Supreme",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 40.99
+        },
+        {
+            "id": 6,
+            "img": "https://mangapizza.ru/base/cache/e2ecb763564d93114201d9e70a4fdb18.jpg?v3",
+            "name": "Extravaganza",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 40.99
+        },
+        {
+            "id": 7,
+            "img": "https://stylesatlife.com/wp-content/uploads/2021/10/California.jpg.webp",
+            "name": "Americano",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 34.99
+        },
+        {
+            "id": 8,
+            "img": "https://caprispizza.co.uk/wp-content/uploads/2021/01/pepperoni-pizza.jpeg",
+            "name": "Italiano",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 42.99
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Buffalo",
+            "price": 49,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 2,
+            "name": "Palermo",
+            "price": 38,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 3,
+            "name": "Napolitano",
+            "price": 52,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 4,
+            "name": "Vegetarian",
+            "price": 40,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 5,
+            "name": "Cappriciosa",
+            "price": 47,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 6,
+            "name": "Margherita",
+            "price": 39,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 7,
+            "name": "Hawaiian",
+            "price": 53,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos, <br>mayo and ketchup flavours"
+        },
+        {
+            "id": 8,
+            "name": "Vegetarian",
+            "price": 50,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 9,
+            "name": "Bologneze",
+            "price": 64,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        },
+        {
+            "id": 10,
+            "name": "Pologneze",
+            "price": 48,
+            "about": "Tomato sauce, mozzarella, virgin olive oil, fresh basil, garlic, pesto sos,<br> mayo and ketchup flavours"
+        }
+    ]
+}

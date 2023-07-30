@@ -1,0 +1,495 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* Start */
+
+.start {
+    width: 100%;
+    background-color: #3e693e;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.start_left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: 35px;
+    justify-content: space-around;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+
+.start_right {
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+}
+
+.start_right>a {
+    color: white;
+    padding-left: 20px;
+}
+
+/* Start End */
+
+/* Navbar */
+nav {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    color: #1f1f1f;
+    justify-content: space-around;
+    z-index: 10;
+    border-bottom: 1px solid #3e693e;
+    align-items: center;
+}
+
+.nav_center {
+    display: flex;
+}
+
+.nav_center_a {
+    position: relative;
+    color: #1f1f1f;
+    font-size: 17px;
+    padding: 12px 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+.nav_right_a1 {
+    color: #1f1f1f;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+.nav_right_a {
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.fa-bag-shopping {
+    font-size: 25px;
+}
+
+.nav_center_img {
+    width: 150px;
+    min-height: auto;
+}
+
+.nav_left_a {
+    color: #3e693e;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 12px 30px;
+    letter-spacing: .01em;
+    border: 2px solid #3e693e;
+    border-radius: 13px;
+    transition: 0.6s;
+}
+
+.nav_left_a:hover {
+    border: 2px solid #3e693e;
+    background-color: #3e693e;
+    color: white;
+}
+
+
+
+.pages_list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background-color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    overflow: hidden;
+}
+
+.pages_list--open {
+    width: 180px;
+    min-height: 90px;
+    padding: 20px 30px;
+    border: 1px solid #3e693e;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pages_list a {
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* Section 1 */
+
+.section1 {
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 18px;
+    padding: 12px 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    text-align: center;
+    
+}
+
+.section1_text {
+    text-align: center;
+
+}
+
+.section1_text1 {
+    width: 400px;
+    padding-bottom: 10px;
+    color: #1f1f1f;
+    font-size: 21px;
+    padding: 12px 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    text-align: center;
+}
+
+.section1_text2 {
+    width: 300px;
+    padding-bottom: 10px;
+    color: #1f1f1f;
+    font-size: 21px;
+    padding: 12px 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    text-align: center;
+
+}
+
+
+
+
+
+/* Section 2 */
+
+.section2 {
+    width: 85%;
+    height: 300px;
+    display: flex;
+    border-top: 1px solid #3e693e;
+    margin-left: 7%;
+    padding-top: 3%;
+
+}
+
+.section2_left,
+.section2_right {
+    width: 50%;
+    height: 200px;
+}
+
+.section2_right button {
+
+    margin-left: 72%;
+
+}
+
+.section2 input {
+    border: 2px solid #3e693e;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 25px;
+    letter-spacing: .01em;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 20px;
+}
+
+.section2 button {
+    color: white;
+    background-color: #3e693e;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 30px;
+    letter-spacing: .01em;
+    border: 2px solid #3e693e;
+    border-radius: 13px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.section2 button:hover {
+    background-color: white;
+    color: #3e693e;
+}
+
+.section2 h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 45px;
+    min-height: 1.3em;
+    margin-top: 10%;
+}
+
+.part1,
+.part3 {
+    width: 85%;
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid #3e693e;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+
+}
+
+.part1 span,
+.part3 p {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 1.59091em;
+
+}
+
+.part3{
+    gap: 10px;
+}
+.part2 {
+    width: 85%;
+    height: 200px;
+    display: flex;
+    border-bottom: 1px solid #3e693e;
+    margin-left: 7%;
+    align-items: center;
+
+}
+
+.part2 span {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 1.59091em;
+
+}
+
+.part2_input {
+    margin-left: 180px;
+    line-height: 1.5rem;
+    padding-top: 15px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+
+.part4 {
+    width: 85%;
+    height: 300px;
+    margin-left: 7%;
+    padding-top: 3%;
+
+}
+
+.part4 button {
+    color: white;
+    background-color: #3e693e;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 30px;
+    letter-spacing: .01em;
+    border: 2px solid #3e693e;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+
+.part4 button:hover {
+    background-color: white;
+    color: #3e693e;
+}
+
+
+.btn {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #3e693e;
+    border-radius: 20px;
+    background-color: #3e693e;
+    color: #f8f7f2;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btn1 {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #c62816;
+    border-radius: 20px;
+    background-color:#c62816;
+    color: #f8f7f2;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.cart_item1{
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+.cart_item1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Footer */
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    padding-top: 5%;
+    border-top: 1px solid #3e693e;
+}
+
+.footer_item h5 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 26px;
+    line-height: 1.59091em;
+    padding-bottom: 8%;
+}
+
+.footer_item p {
+    margin-bottom: 8%;
+    line-height: 1.5rem;
+    padding-top: 15px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.footer_item_img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.iconContainer>i {
+    color: #3e693e;
+    font-size: 33px;
+    margin-left: 5%;
+}
+
+.footerContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.iconContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+/* ! START*/
+@media screen and (max-width: 700px) {
+    .start {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .start_left {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .start {
+        display: none;
+    }
+
+}
+
+/* ! START*/
+
+/* FOOTER*/
+
+@media screen and (max-width: 910px) {
+    .footer {
+
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .footerContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 496px) {
+
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footer_item {
+        width: 100%;
+    }
+}
+
+/* FOOTER*/

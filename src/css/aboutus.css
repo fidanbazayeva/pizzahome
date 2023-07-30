@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Start */
+
+.start {
+    width: 100%;
+    min-height: 35px;
+    background-color: #3e693e;
+    display: flex;
+
+}
+
+.start_left {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Dela Gothic One", sans-serif;
+    padding-top: 10px;
+}
+
+
+.start_right {
+    width: 70%;
+    padding-left: 850px;
+    padding-top: 10px;
+}
+
+.start_right>a {
+    color: white;
+    padding-left: 20px;
+}
+
+/* Start End */
+
+body {
+    background-color: #f8f7f2;
+    ;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    color: #1f1f1f;
+    padding-top: 30px;
+    justify-content: space-around;
+    z-index: 10;
+    border-bottom: 2px solid #3e693e;
+    align-items: center;
+
+}
+
+.fa-bag-shopping ,.fa-magnifying-glass {
+    color: #3e693e;
+}
+
+.nav_center {
+    display: flex;
+}
+
+.nav_center_a {
+    position: relative;
+    color: #1f1f1f;
+    font-size: 17px;
+    padding: 12px 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+.nav_right_a1 {
+    color: #1f1f1f;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+.nav_right_a {
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.fa-bag-shopping {
+    font-size: 25px;
+}
+
+.nav_center_img {
+    width: 150px;
+    min-height: auto;
+}
+
+
+.nav_left_a {
+    color: #3e693e;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 12px 30px;
+    letter-spacing: .01em;
+    border: 2px solid #3e693e;
+    border-radius: 13px;
+    transition: 0.6s;
+}
+
+.nav_left_a:hover {
+    border: 2px solid #3e693e;
+    background-color: #3e693e;
+    color: white;
+}
+
+
+.pages_list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background-color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    overflow: hidden;
+}
+
+.pages_list--open {
+    width: 180px;
+    min-height: 90px;
+    padding: 20px 30px;
+    border: 1px solid #3e693e;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+    background-color: #f8f7f2;
+    ;
+}
+
+.pages_list a {
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+
+.blog_list {
+    position: absolute;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background-color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.blog_list--open {
+    width: 200px;
+    min-height: 90px;
+    padding: 20px 30px;
+    border: 1px solid#3e693e;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+    background-color: #f8f7f2;
+    ;
+}
+
+.blog_list a {
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+.shop_list {
+    position: absolute;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background-color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    overflow: hidden;
+
+}
+
+.shop_list--open {
+    width: 180px;
+    min-height: 70px;
+    padding: 20px 30px;
+    border: 1px solid #3e693e;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+    background-color: #f8f7f2;
+    ;
+}
+
+.shop_list a {
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+.div {
+    width: 100%;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.div img {
+    width: 100%;
+    /* transform: scale(1.0); */
+    min-height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.div h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #f8f7f2;
+    font-size: 65px;
+    line-height: 1.15385em;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    min-height: 100px;
+
+}
+
+/* Section 1 */
+
+.section1 {
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+}
+
+.section1_left {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 10%;
+
+
+}
+
+.section1_right {
+    width: 50%;
+    padding-top: 10%;
+}
+
+.section1_left_bottom {
+    display: flex;
+}
+
+.section1_left h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 50px;
+    line-height: 1.3em;
+
+}
+
+.section1_left p {
+    line-height: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.s1_item {
+    padding: 20px 30px;
+}
+
+.section1_left_item h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 23px;
+}
+
+.s1_item h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 23px;
+}
+
+.section1_right img {
+    width: 90%;
+
+}
+
+
+.section3 {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.section3_left {
+    width: 50%;
+    border: 1px solid #3e693e;
+    background-image: url('https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/p3-img-02.jpg');
+    object-fit: cover;
+}
+
+.section3_left img {
+    width: 100%;
+    height: 600px;
+}
+
+.section3_right {
+    width: 50%;
+    border: 1px solid #3e693e;
+    padding-top: 150px;
+}
+
+.section3_right h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 50px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.section3_right p {
+    line-height: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.section3_ul {
+    display: flex;
+    margin-left: 200px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 23px;
+    gap: 40px;
+}
+
+marquee {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 90px;
+    line-height: 1em;
+    background-color: #3e693e;
+    font-weight: 900;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 100%;
+    color: white;
+    display: block;
+}
+
+.section8 {
+    width: 100%;
+    display: flex;
+    min-height: 300px;
+}
+
+.section8_item {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #3e693e;
+    padding: 80px 80px;
+    min-height: 300px;
+}
+
+.section8_item h5 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 26px;
+    line-height: 1.59091em;
+    margin-top: 20px;
+}
+
+.section8_item p {
+    margin-bottom: 80px;
+    line-height: 1.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+
+}
+
+.section8_item img {
+    width: 100%;
+    min-height: 200px;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    padding-top: 5%;
+    border-top: 1px solid #3e693e;
+}
+
+.footer_item h5 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 26px;
+    line-height: 1.59091em;
+    padding-bottom: 8%;
+}
+
+.footer_item p {
+    margin-bottom: 8%;
+    line-height: 1.5rem;
+    padding-top: 15px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.footer_item_img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.iconContainer>i {
+    color: #3e693e;
+    font-size: 33px;
+    margin-left: 5%;
+}
+
+.footerContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.iconContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    .start,
+    .nav_center_a,
+    .nav_left_a,
+    .nav_right {
+        display: none;
+    }
+
+    .section1,
+    .section3,
+    .section8,
+    .footer {
+        flex-direction: column;
+
+    }
+
+    .section1_left,
+    .section1_right,
+    .section3_left,
+    .section3_right,
+    .section8_item {
+        width: 100%;
+
+    }
+
+    .section1_right {
+        text-align: center;
+    }
+
+    .section1_right img {
+        width: 70%;
+
+    }
+
+
+}
+
+/* FOOTER*/
+
+@media screen and (max-width: 910px) {
+    .footer {
+
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .footerContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 496px) {
+
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footer_item {
+        width: 100%;
+    }
+}
+
+/* FOOTER*/

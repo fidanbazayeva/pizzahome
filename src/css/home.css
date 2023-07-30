@@ -1,0 +1,1258 @@
+@import "./components/nav.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+body {
+    max-width: 1530px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Start */
+
+.start {
+    width: 100%;
+    background-color: #D63920;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.start_left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: 35px;
+    justify-content: space-around;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+
+.start_right {
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+}
+
+.start_right>a {
+    color: white;
+    padding-left: 20px;
+}
+
+/* Start End */
+
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    color: #1f1f1f;
+    justify-content: space-around;
+    z-index: 10;
+    align-items: center;
+}
+
+.fa-bag-shopping {
+    color: white;
+}
+
+.nav_center {
+    display: flex;
+}
+
+.nav_center_a {
+    position: relative;
+    color: white;
+    font-size: 17px;
+    padding: 10px 30px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+.nav_right_a1 {
+    color: white;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: .01em;
+}
+
+.nav_right_a {
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.fa-bag-shopping {
+    font-size: 25px;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.nav_center_img {
+    width: 150px;
+    height: auto;
+}
+
+
+.nav_left_a {
+    color:#D63920;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 12px 30px;
+    letter-spacing: .01em;
+    border: 2px solid #D63920;
+    border-radius: 13px;
+    transition: 0.6s;
+}
+
+.nav_left_a:hover {
+    border: 2px solid #D63920;
+    background-color: #D63920;
+    color: white;
+}
+
+
+.pages_list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background-color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    overflow: hidden;
+}
+
+.pages_list--open {
+    width: 180px;
+    min-height: 90px;
+    padding: 20px 30px;
+    border: 1px solid #D63920;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+}
+
+.pages_list a {
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+.nav-fixed {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #D63920;
+}
+
+.nav-fixed a {
+    color: #1a1a1a;
+}
+.nav-fixed i {
+ color: #1f1f1f;
+}
+.nav-fixed span{
+    color: #1f1f1f;
+   }
+
+.div {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.div img {
+    width: 100%;
+    transform: scale(1.2);
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.div h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #f8f7f2;
+    font-size: 65px;
+    line-height: 1.15385em;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    height: 100px;
+}
+
+.div_first {
+    display: block;
+}
+
+.div_first_open {
+    display: none;
+}
+
+.div_second {
+    display: block;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+
+/* Navbar End */
+
+
+
+/*? Header */
+header {
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background-image: url(https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/h4-rev-img-01.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.headerCenterText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+.order_now {
+    color: white;
+    background-color: #D63920;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px 40px;
+    letter-spacing: .01em;
+    border: 2px solid #D63920;
+    border-radius: 15px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.header_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    font-size: 40px;
+    color: white;
+}
+
+.order_now_open {
+    display: none;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: #D63920;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 700;
+
+}
+
+.order_now_open--open{
+    width: 500px;
+}
+
+.order_now_close{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    font-size: 32px;
+    background-color: #D63920;
+    color: #f8f7f2;
+}
+
+.marquee {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 90px;
+    line-height: 1em;
+    color: #D63920;
+    font-weight: 900;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+
+/* Section 1 */
+
+.section1 {
+    display: flex;
+    width: 100%;
+}
+
+.section1_left {
+    width: 33%;
+    border: 1px solid #D63920;
+    position: relative;
+    background-image: url("https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/h3-img-01.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.section1_left_img {
+    z-index: 5;
+    position: absolute;
+    top: 300px;
+    left: 10%;
+}
+
+.section1_right_img {
+    z-index: 5;
+    position: absolute;
+    top: 350px;
+}
+
+.section1_center {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border: 1px solid #D63920;
+    height: 500px;
+}
+
+.section1_center h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 38px;
+    line-height: 1.31579em;
+    text-align: center;
+}
+
+.section1_center p {
+    margin-top: 7px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+
+.section1_right {
+    width: 34%;
+    background-image: url("https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/h3-img-02.jpg");
+    border: 1px solid #D63920;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.order_now1 {
+    color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    background-color: #D63920;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+
+.order_now1:hover {
+    background-color: white;
+    color: #D63920;
+}
+
+
+/* Section 2 */
+
+.section2 {
+    width: 100%;
+    min-height: 750px;
+    margin-top: 100px;
+}
+
+.section2_list {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+}
+
+
+
+.section2_h5_item {
+    border-bottom: 2px dotted #D63920;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2_name {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 35px;
+    line-height: 1.3em;
+    width: 100%;
+    padding: 5% 5%;
+    line-height: 65px;
+}
+
+
+.section2_h5 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 28px;
+    line-height: 1.59091em;
+    display: inline;
+}
+
+.section2_p {
+    line-height: 1.5rem;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.order_now3 {
+    color: white;
+    background-color: #D63920;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px 40px;
+    letter-spacing: .01em;
+    border: 2px solid #D63920;
+    border-radius: 15px;
+    margin-left: 45%;
+    display: inline-block;
+    margin-top: 40px;
+    transition: 0.6s;
+}
+
+.order_now3:hover {
+    background-color: white;
+    color: #D63920;
+}
+
+
+
+/* Section 3 */
+
+.section3 {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.section3_left {
+    width: 50%;
+    border: 1px solid #D63920;
+    background-image: url("https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/h3-img-03.jpg");
+    background-size: cover;
+}
+
+.section3_left img {
+    width: 100%;
+    min-height: 600px;
+}
+
+.section3_right {
+    width: 50%;
+    border: 1px solid #D63920;
+    padding-top: 150px;
+}
+
+.section3_right h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 50px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.section3_right p {
+    line-height: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.section3_ul {
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    margin-left: 200px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    color: #1a1a1a;
+    font-size: 23px;
+    gap: 40px;
+}
+
+/* Section 4 */
+
+
+.section4 {
+    width: 100%;
+    display: flex;
+    min-height: 630px;
+}
+
+.section4_left {
+    width: 50%;
+    border: 1px solid #D63920;
+}
+
+.section4_right {
+    background-image: url('https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/h3-img-04.jpg');
+    width: 50%;
+    object-fit: cover;
+    border: 1px solid #D63920;
+}
+
+.section4_right img {
+    width: 100%;
+    min-height: 630px;
+}
+
+.section4_left h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 50px;
+    line-height: 1.3em;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.section4_left p {
+    line-height: 1.5rem;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.section4_left svg {
+    margin-left: 500px;
+}
+
+.order_now2 {
+    color: white;
+    background-color: #D63920;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px 40px;
+    letter-spacing: .01em;
+    border: 2px solid #D63920;
+    border-radius: 15px;
+    margin-left: 35%;
+    display: inline-block;
+    margin-top: 40px;
+    transition: 0.6s;
+}
+
+.order_now2:hover {
+    background-color: white;
+    color: #D63920;
+}
+
+
+/* Section 5 */
+.swiper-pagination-bullet {
+    background-color: red !important;
+    margin-top: 30px !important;
+}
+
+.swiper-wrapper {
+    width: 100% !important;
+    margin-top: 100px !important;
+}
+
+.swiper-slide {
+    width: 33% !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.swiper-slide-active {
+    width: 33% !important;
+    margin: 0 !important;
+}
+
+.swiper-backface-hidden {
+    width: 1440px !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 20px !important;
+}
+
+.swiper-pagination-horizontal {
+    margin-bottom: -10px !important;
+}
+
+
+.swiper_a {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 36px;
+    line-height: 1.59091em;
+    text-align: center;
+}
+
+.swiper-slide h3 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 30px;
+    line-height: 1.59091em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.swiper-slide p {
+    line-height: 1.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+
+.marquee1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 90px;
+    line-height: 1em;
+    background-color: #D63920;
+    font-weight: 900;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 100%;
+    color: white;
+}
+
+
+/*Section 6*/
+video {
+    display: block;
+}
+
+/* Section 7 */
+.section7 {
+    width: 100%;
+    /* min-height: 700px; */
+    display: flex;
+    margin-top: 100px;
+}
+
+.section7_left {
+    width: 60%;
+    text-align: center;
+    position: relative;
+    height: 700px;
+}
+
+.section7_left img {
+    width: 60%;
+    margin-top: 60px;
+}
+
+.section7_right {
+    width: 40%;
+    height: 700px;
+}
+
+.section7_item {
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+
+.section7_right h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 60px;
+    line-height: 1.3em;
+}
+
+.s7_item h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 22px;
+    line-height: 1.59091em
+}
+
+.s7_item p {
+    margin-bottom: 80px;
+    line-height: 1.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+.section7_img {
+    margin-left: 500px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+
+/* Section 8 */
+.section8 {
+    width: 100%;
+    display: flex;
+    min-height: 450px;
+}
+
+.section8_item {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #D63920;
+    padding: 80px 80px;
+    min-height: 450px;
+}
+
+.section8_item h5 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 26px;
+    line-height: 1.59091em;
+    margin-top: 20px;
+}
+
+.section8_item p {
+    margin-bottom: 80px;
+    line-height: 1.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+
+/* Section 9 */
+
+.section9 {
+    width: 100%;
+    min-height: 280px;
+    background-color: #D63920;
+    position: relative;
+}
+
+.section9_input {
+    width: 300px;
+    min-height: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 40px;
+    margin-top: 100px;
+    outline: none;
+    font-family: "Dela Gothic One", sans-serif;
+    z-index: 5;
+    position: relative;
+}
+
+.s9_div {
+    margin-left: 150px;
+}
+
+.section9_btn {
+    color: white;
+    background-color: #D63920;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 20px 30px;
+    letter-spacing: .01em;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 30px;
+    transition: 0.6s;
+}
+
+.section9_btn:hover {
+    background-color: white;
+    color: #D63920;
+}
+
+.section9_svg {
+    position: absolute;
+    margin-top: 50px;
+    z-index: 3;
+    margin-left: 10px;
+}
+
+/* Footer */
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    padding-top: 5%;
+}
+
+.footer_item h5 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    letter-spacing: .01em;
+    color: #1a1a1a;
+    font-size: 26px;
+    line-height: 1.59091em;
+    padding-bottom: 8%;
+}
+
+.footer_item p {
+    margin-bottom: 8%;
+    line-height: 1.5rem;
+    padding-top: 15px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #1a1a1acc;
+}
+
+.footer_item_img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.iconContainer> i {
+    color: #D63920;
+    font-size: 33px;
+    margin-left: 5%;
+}
+
+.footerContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.iconContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*FOOTER*/
+.nav_right {
+    display: flex;
+    width: 200px;
+    gap: 30px;
+    align-items: center;
+}
+
+.basket {
+    width: 40px;
+}
+
+.hMenu {
+    width: 30px;
+    height: 35px;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+
+.hMenu .line {
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.closebtn {
+    border: none;
+    font-size: 32px;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    margin-left: 120px;
+    border: 2px solid #D63920;
+    text-align: center;
+    align-items: center;
+    padding-left: 2px;
+}
+
+
+
+/* ! START*/
+@media screen and (max-width: 700px) {
+    .start {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .start_left {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .start {
+        display: none;
+    }
+
+}
+
+/* ! START*/
+
+/* ! NAVBAR*/
+
+@media screen and (max-width: 1148px) {
+
+
+    .nav_left {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+
+    nav {
+        justify-content: flex-end;
+    }
+
+    .nav_center {
+        top: 0;
+        position: absolute;
+        transform: translateX(100%);
+        width: 50vw;
+        min-height: 50vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        background-color: #D63920;
+        transition: 1s;
+
+    }
+
+    .hMenu {
+        display: flex;
+    
+
+    }
+
+    .closebtn{
+        display: flex;
+    }
+   
+}
+
+/* ! NAVBAR*/
+
+/* ! HEADER*/
+
+@media screen and (max-width: 481px) {
+    .header_right {
+        width: 100%;
+    }
+
+}
+
+/* ! HEADER*/
+
+/*! SECTION1*/
+
+@media screen and (max-width: 1054px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1_left,
+    .section1_center,
+    .section1_right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .section1_left_img {
+        display: none;
+    }
+}
+
+/*! SECTION1*/
+
+
+/*! SECTION3*/
+
+@media screen and (max-width: 1054px) {
+    .section3 {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .section3_left {
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+
+    .section3_right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3_ul {
+        margin: 0;
+    }
+}
+
+
+/*! SECTION3*/
+
+
+/*! SECTION4 */
+
+@media screen and (max-width: 1500px) {
+    .section4_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1054px) {
+    .section4 {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .section4_left {
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+
+    .section4_right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4_img {
+        display: none;
+    }
+}
+
+
+/*! SECTION7*/
+@media screen and (max-width: 1054px) {
+    .section7 {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .section7_left {
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .section7_right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section7_img {
+        display: none;
+    }
+}
+
+/*! SECTION8 */
+@media screen and (max-width: 1054px) {
+    .section8 {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .section8_item {
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/*! SECTION9*/
+@media screen and (max-width: 836px) {
+    .section9 {
+        height: auto;
+    }
+
+    .s9_div {
+        width: 100%;
+
+    }
+
+    .s9_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section9_btn {
+        margin: 50px 40px;
+        width: 310px;
+
+    }
+}
+
+
+/* FOOTER*/
+
+@media screen and (max-width: 910px) {
+    .footer {
+
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .footerContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 496px) {
+
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footer_item {
+        width: 100%;
+    }
+}
+
+/* FOOTER*/
+
+
+
+@media only screen and (max-width: 900px) {
+    .section2_list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hMenu {
+        display: flex;
+    }
+}

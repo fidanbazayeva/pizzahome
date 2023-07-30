@@ -1,0 +1,64 @@
+{
+    "burger": [
+        {
+            "id": 1,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/shop-01-img-1-768x744.png",
+            "imgs":[
+
+            ],
+            "name": "Double Burger",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 40.99
+        },
+        {
+            "id": 2,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/shop-02-img-01-768x744.png",
+            "name": "Cheese Fries",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 34.99
+        },
+        {
+            "id": 3,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/shop-03-img-01-768x744.png",
+            "name": "Fish Burger",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 42.99
+        },
+      
+        {
+            "id": 4,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2022/12/shop-04-img-01-768x744.png",
+            "name": "Taco Max",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 42.99
+        },
+        {
+            "id": 5,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-05-img-01-768x744.png",
+            "name": "Onion Rings",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 40.99
+        },
+        {
+            "id": 6,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-06-img-01-768x744.png",
+            "name": "Extravaganza",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 40.99
+        },
+        {
+            "id": 7,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-13-img-01-768x744.png",
+            "name": "Taco Dip",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 34.99
+        },
+        {
+            "id": 8,
+            "img": "https://jimmie.qodeinteractive.com/wp-content/uploads/2023/01/shop-08-img-01-768x744.png",
+            "name": "Crust Burger ",
+            "about": "Voluptatem ea rerum nisi.<br> Ullam debitis optio. Quae ",
+            "price": 42.99
+        }
+    ]
+}
